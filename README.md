@@ -4,7 +4,8 @@ This is a convenience container image to poll Juniper EX switches over SNMPv2 fr
 
 # Configuration
 The telegraf configuration for the image pulls from environment variables.
- | telegraf.conf name  | envvar | default value |
+
+| telegraf.conf name  | envvar | default value |
 | ------------- | ------------- | ----- |
 | global\_tags > dc  | TELEGRAF_DC  |  |
 | global\_tags > rack  | TELEGRAF_RACK  |  |
